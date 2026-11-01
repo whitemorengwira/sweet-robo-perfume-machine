@@ -1,76 +1,55 @@
 # Perfume Machine
 
-### Android engineering & kiosk experience
+### Android engineering for self-service fragrance kiosks
 
-**Whitemore Ngwira · Sweet Robo · Selected engineering contributions**
+**Whitemore Ngwira · Engineering contributions at Sweet Robo**
 
-![Original concept illustration for Perfume Machine; not actual company hardware or software](assets/hero.png)
+[Sweet Robo — official website](https://sweetrobo.com/) · [Futureino — official website](https://futureino.ai/) · [Explore the public product page](https://futureino.ai/vending-machines/perfume-station-vending-machine)
 
-*AI-generated concept illustration. The equipment and interface shown are fictional; they are not photographs or screenshots of Sweet Robo products.*
+<p align="center">
+  <a href="https://futureino.ai/vending-machines/perfume-station-vending-machine"><img src="assets/perfume-official.webp" alt="Futureino’s published Perfume Station product visual." width="520"></a>
+</p>
 
-## At a glance
+*Futureino’s published Perfume Station product visual. [View source image](https://futureino.ai/lp/perfume-boutique/royal.webp).*
 
-I contributed Android application improvements for perfume-dispensing kiosks during my work at Sweet Robo, covering multilingual customer journeys, operator configuration and test-build validation.
+## My work
 
-**Focus:** Android application engineering  
-**Skills demonstrated:** Android · Kotlin · Localisation · Kiosk UX · Regression testing
+My work at Sweet Robo includes improving the Android experience behind perfume-dispensing kiosks: multilingual customer journeys, operator configuration and the testing needed to prepare changes for review.
 
-## The engineering challenge
+**Skills:** Android · Kotlin · Localisation · Kiosk UX · Regression testing
 
-A physical kiosk has to communicate clearly in several languages while remaining practical for operators. Small interface changes can affect text layout, machine configuration and the path from selection to dispensing.
+## The product context
 
-## My contribution
+Futureino publicly presents Perfume Station and Perfume Bar as self-service fragrance machines with touchscreen selection and spray dispensing. [Official source](https://futureino.ai/vending-machines/perfume-station-vending-machine).
 
-### Multilingual customer journeys
+## My engineering contributions
 
-I integrated and corrected language resources, checked variable placeholders and reviewed customer-facing text across the kiosk journey.
+- **Multilingual journeys:** Integrated and corrected language resources, preserved dynamic placeholders and reviewed wording across the customer flow.
+- **Screen layout:** Adjusted the interface for additional language options and checked representative screens on an isolated Android emulator.
+- **Operator controls:** Implemented a clearer machine-configuration flow, including confirmation before consequential changes.
+- **Build and verification:** Prepared test APKs, ran regression checks and documented what had been verified in software and what required physical-machine testing.
 
-### Interface behaviour
+## What I produced
 
-I adjusted layouts to accommodate additional language choices and verified representative screens on an isolated Android emulator.
+Reviewable Android changes, test builds and clear validation notes for customer-facing and operator-facing improvements.
 
-### Operator configuration
+## Engineering approach
 
-I implemented a clearer configuration flow with confirmation before consequential changes, preserving the surrounding application behaviour.
+![High-level engineering process; not a proprietary system diagram](assets/workflow.svg)
 
-### Test-build preparation
+Working across interface design, application behaviour and hardware-dependent validation—without treating a passing emulator test as proof of physical dispensing.
 
-I ran automated regression checks, built test APKs and documented the difference between emulator evidence and checks that require a physical machine.
+## Explore the engineering series
 
-## How I approached the work
-
-![Understand the journey → Implement the change → Check languages & layout → Prepare a test build](assets/workflow.svg)
-
-*Illustrative engineering workflow; not the product's internal design.*
-
-1. Understand the journey.
-2. Implement the change.
-3. Check languages & layout.
-4. Prepare a test build.
-
-## What the work produced
-
-The work produced reviewable application changes, test builds and documented checks for multilingual and operator-facing flows.
-
-This is a contribution summary. It does not claim that every change has been released or that emulator checks establish physical dispensing acceptance.
-
-## Public review boundary
-
-This is a documentation-only portfolio showcase. Private source code, internal platform names, infrastructure, endpoints, schemas, credentials, customer information, operational records and internal screenshots are excluded. Supporting work records remain private.
-
-The narrative explains my contribution within a team-owned product. The concept artwork is not evidence of implementation or an employer-approved product design.
-
-## Explore the series
-
+- [Perfume Machine](https://github.com/whitemorengwira/sweet-robo-perfume-machine) — this showcase
 - [Vending Machine](https://github.com/whitemorengwira/sweet-robo-vending-machine)
 - [Photo Booth](https://github.com/whitemorengwira/sweet-robo-photo-booth)
 - [Control Centre Engineering](https://github.com/whitemorengwira/sweet-robo-control-centre-engineering)
 
-## Contact
+## Sources and portfolio scope
 
-[GitHub profile](https://github.com/whitemorengwira) · [N.White Systems](https://nwhite.systems/) · [Email Whitemore](mailto:hello@nwhite.systems)
+Official product information and imagery: [Futureino](https://futureino.ai/) and [Sweet Robo](https://sweetrobo.com/). Product descriptions are attributed public context; the first-person contribution statements describe my own work within an existing team.
 
-I can discuss my engineering approach and responsibilities within the applicable confidentiality boundaries.
+This documentation-only portfolio excludes proprietary source code, private infrastructure and non-public operational information. It does not imply sole product authorship, employer endorsement or completion of every hardware and release milestone. See [image credits and viewing notice](COPYRIGHT.md).
 
-See [Portfolio viewing notice](COPYRIGHT.md).
-
+[Contact me](mailto:hello@nwhite.systems) · [N.White Systems](https://nwhite.systems/) · [GitHub profile](https://github.com/whitemorengwira)
